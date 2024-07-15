@@ -30,3 +30,33 @@ Extracts features from the entire image by dividing it into patches and aggregat
 def extract_image_features(image_path, patch_size=128, stride=32):
     # Code to extract features from the image
 ```
+##### Stacking Classifier 
+The script trains a stacking classifier using different machine learning models, including Random Forest, XGBoost, and Histogram-based Gradient Boosting. 
+The final estimator is a Multi-Layer Perceptron (MLP).
+```Python
+from sklearn.ensemble import StackingClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.neural_network import MLPClassifier
+
+estimators = [
+    ('rf', RandomForestClassifier(...)),
+    ('xgb', XGBClassifier(...)),
+    ('hclf', HistGradientBoostingClassifier(...))
+]
+
+stack = StackingClassifier(
+    estimators=estimators,
+    final_estimator=MLPClassifier(random_state=42),
+    cv=5
+)
+```
+##### Training and Evaluation
+Trains the stacking classifier on the training dataset and evaluates its performance on the test dataset.
+```Python
+stack.fit(X_train, y_train)
+y_pred = stack.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+print(f'Accuracy of Stacking Classifier: {accuracy:.2f}')
+print("Classification Report:")
+print(classification_report(y_test, y_pred))
+```
