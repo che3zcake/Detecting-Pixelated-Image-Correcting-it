@@ -65,39 +65,39 @@ print(classification_report(y_test, y_pred))
 Our SRGAN model is a type of neural network designed to enhance the resolution of low-resolution images to a higher resolution. 
 The model consists of two main components: the Generator and the Discriminator.
 
-####1. Generator Network:
+#### 1. Generator Network:
 The Generator aims to generate high-resolution (HR) images from low-resolution (LR) images. The network architecture includes:
 
-#####Initial Convolutional Layer:
+##### Initial Convolutional Layer:
 A convolutional layer with 64 filters and a kernel size of 9x9, followed by a Parametric ReLU (PReLU) activation function. This layer processes the input LR image.
 
-#####Residual Blocks:
+##### Residual Blocks:
 The core of the generator consists of several residual blocks (in this case, 16 blocks). Each block contains:
 Two convolutional layers with 64 filters and a kernel size of 3x3.
 Batch normalization layers.
 PReLU activation.
 These residual blocks help in learning the identity mapping, which is crucial for generating detailed high-resolution images.
 
-#####Upsampling Layers:
+##### Upsampling Layers:
 Two upsampling layers using PixelShuffle to increase the resolution of the feature maps. Each layer consists of:
 A convolutional layer with 256 filters and a kernel size of 3x3.
 PixelShuffle operation to increase the spatial resolution by a factor of 2.
 PReLU activation.
 
-#####Final Convolutional Layer:
+##### Final Convolutional Layer:
 A convolutional layer with 3 filters and a kernel size of 9x9 to produce the final high-resolution image.
 The generator is trained to minimize the Mean Squared Error (MSE) between the generated image and the ground truth high-resolution image, as well as the perceptual loss calculated using a pre-trained VGG network to ensure the generated image looks perceptually realistic.
 
-####2. Discriminator Network:
+#### 2. Discriminator Network:
 The Discriminator's role is to distinguish between real high-resolution images and the generated images from the generator. The architecture includes:
 
-#####Convolutional Layers:
+##### Convolutional Layers:
 Multiple convolutional layers with increasing filter sizes (64, 128, 256, 512) and kernel sizes of 3x3.
 Leaky ReLU activations after each convolutional layer.
 Batch normalization to stabilize the training process.
 Downsampling using strided convolutions.
 
-#####Fully Connected Layers:
+##### Fully Connected Layers:
 A fully connected layer with 1024 units and Leaky ReLU activation.
 A final fully connected layer with a single output unit followed by a Sigmoid activation to output the probability of the input image being real or fake.
 The discriminator is trained to minimize the Binary Cross-Entropy (BCE) loss between the predicted probabilities and the true labels (real or fake).
