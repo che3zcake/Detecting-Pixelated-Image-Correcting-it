@@ -11,17 +11,19 @@ cd Detecting-Pixelated-Image-Correcting-it
 ```
 2. Open tenma0.ipynb and set the path for detection model ***pixelation_model.pkl** and correction model ***generator.pth*** to path
 ```python
+model_path = os.path.join(r'path_of_pixelation_model.pkl_file', 'pixelation_model.pkl')
+#Example Usage
 model_path = os.path.join(r'C:\Users\nilot\OneDrive\Desktop\IntelAi', 'pixelation_model.pkl')
 ```
 ```python
 if not torch.cuda.is_available():
-    generator.load_state_dict(torch.load(r'C:\Users\nilot\OneDrive\Desktop\IntelAi\generator.pth', map_location=torch.device('cpu')))
+    generator.load_state_dict(torch.load(r'path_of_generator.pth_file', map_location=torch.device('cpu')))
 else:
-    generator.load_state_dict(torch.load(r'C:\Users\nilot\OneDrive\Desktop\IntelAi\generator.pth'))
+    generator.load_state_dict(torch.load(r'path_of_generator.pth_file'))
 ```
 3. Give the path to your image and run the cell
 ```python
-usage(image_path = r'C:\Users\nilot\OneDrive\Desktop\IntelAi\downscaled.png')
+usage(image_path = r'image_path')
 ```              
 
 
