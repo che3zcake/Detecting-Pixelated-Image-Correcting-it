@@ -85,19 +85,19 @@ print(classification_report(y_test, y_pred))
   <b>Low_Res</b> | <b>Super_Resolved</b>  |<b>Hig_Res</b> 
 </p>
 <p align="center">
-  <img src="Images/1.jpg" width="33%" />
+  <img src="Images/1.jpg" width="100%" />
 </p>
 
 <p align="center">
-  <img src="Images/2.jpg" width="200" />
+  <img src="Images/2.jpg" width="100%" />
 </p>
 
 <p align="center">
-    <img src="Images/3.jpg" width="200" />
+    <img src="Images/3.jpg" width="100%" />
 </p>
 
 <p align="center">
-    <img src="Images/3.jpg" width="200" />
+    <img src="Images/3.jpg" width="100%" />
 </p>
 
 
