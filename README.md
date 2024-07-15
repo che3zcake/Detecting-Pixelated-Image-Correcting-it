@@ -79,20 +79,17 @@ print(classification_report(y_test, y_pred))
 | **Accuracy**     | 0.99                        |
 | **Model Size**   | 17.2 MB                     | 
 
-***Sample Output**
+***Sample Output***
 
 <p align="center">
-  <b>Original</b> | <b>MobileSR</b>  |<b>MiniSRGAN</b> | <b>TinySRGAN</b>
+  <b>Low_Res</b> | <b>Super_Resolved</b>  |<b>Hig_Res</b> 
 </p>
 <p align="center">
   <img src="Images/1.jpg" width="200" />
 </p>
 
 <p align="center">
-  <img src="images/Set5/4.png" width="200" />
-  <img src="images/super_resolved_Set5_images_mobileSR/4.png" width="200" />
-  <img src="images/super_resolved_Set5_images_miniSRGAN/4.png" width="200" />
-  <img src="images/super_resolved_Set5_images_tinySRGAN/4.png" width="200" />
+  <img src="Images/2.jpg" width="200" />
 </p>
 
 <p align="center">
