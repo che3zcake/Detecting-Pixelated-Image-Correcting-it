@@ -102,6 +102,21 @@ A fully connected layer with 1024 units and Leaky ReLU activation.
 A final fully connected layer with a single output unit followed by a Sigmoid activation to output the probability of the input image being real or fake.
 The discriminator is trained to minimize the Binary Cross-Entropy (BCE) loss between the predicted probabilities and the true labels (real or fake).
 
+## Architecture
+ <p align="center">
+  <b>Generator</b>
+</p>
+<p align="center">
+  <img src="Images/gen.png" width="400" />
+</p>
+
+ <p align="center">
+  <b>Discriminator</b>
+</p>
+<p align="center">
+  <img src="Images/dis.png" width="400" />
+</p>
+
 ## :star: Results
 ###  <ins>Detection Results: </ins>
 
@@ -126,6 +141,7 @@ The discriminator is trained to minimize the Binary Cross-Entropy (BCE) loss bet
 | **Recall**       | 0.99                               | 
 | **F1 Score**     | 0.99                               | 
 | **Accuracy**     | 0.99                               |
+| **FPS**          | 300                                |
 | **Model Size**   | 17.2 MB                            | 
 
 
