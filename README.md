@@ -4,7 +4,7 @@ This project is to build two models: one that detects pixelation in an image and
 ### Part 0: How to Use
 1. Open a GitBash terminal and clone the directory and change the directory to Detecting-Pixelated-Image-Correcting-it
 ```bash
-git clone --https://github.com/che3zcake/Detecting-Pixelated-Image-Correcting-it.git
+git clone https://github.com/che3zcake/Detecting-Pixelated-Image-Correcting-it.git
 cd Detecting-Pixelated-Image-Correcting-it
 ```
 2. Open tenma0.ipynb and set the path for detection model ***pixelation_model.pkl** and correction model ***generator.pth*** to path
