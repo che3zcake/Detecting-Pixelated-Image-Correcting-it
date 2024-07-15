@@ -186,6 +186,8 @@ The discriminator is trained to minimize the Binary Cross-Entropy (BCE) loss bet
 ###  <ins>Correction Results: </ins>
 #### Metrics are calculated on set5 images 
 
+All the metrics calculations can be found in the [matrics.ipynb](https://github.com/che3zcake/Detecting-Pixelated-Image-Correcting-it/blob/main/metrics.ipynb) file 
+
 
 | Metric            | Proposed Model          | SRGAN                    | EDSR                     | FSRCNN                   |
 |-------------------|-------------------------|--------------------------|--------------------------|--------------------------|
