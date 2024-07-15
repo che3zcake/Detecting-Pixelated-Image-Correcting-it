@@ -60,3 +60,21 @@ print(f'Accuracy of Stacking Classifier: {accuracy:.2f}')
 print("Classification Report:")
 print(classification_report(y_test, y_pred))
 ```
+
+## :star: Results
+###  <ins>Detection Results: </ins>
+
+**Datasets used for testing:**
+
+- Div2K (Full dataset - 900 images)
+- Flickr2K (Test split - 284 images)
+
+**Performance:**
+
+| Metric           | Proposed Method on Flickr2K | 
+|------------------|-----------------------------|
+| **Precision**    | 0.99                        | 
+| **Recall**       | 0.99                        | 
+| **F1 Score**     | 0.99                        | 
+| **Accuracy**     | 0.99                   |
+| **Model Size**   | 17.2 MB                     | 
