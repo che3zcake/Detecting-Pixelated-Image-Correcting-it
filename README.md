@@ -105,8 +105,8 @@ print(classification_report(y_test, y_pred))
 | PSNR              | 28.939 dB               | 29.99 dB                 | 31.78 dB                 | 30.52 dB                 |
 | SSIM              | 0.9469                  | 0.8176                   | 0.8895                   | 0.8548                   |
 | LPIPS             | 0.0326                  | 0.1118                   | 0.1922                   | 0.2013                   |
-| Speed (FPS)       | -                       | 12                       | 16                       | 188                      |
-| Model Size (MB)   | -                       | 5.874                    | 5.789                    | 0.049                    |
+| Speed (FPS)       | 70                      | 12                       | 16                       | 188                      |
+| Model Size (MB)   | 6.01                    | 5.874                    | 5.789                    | 0.049                    |
 
 
 
