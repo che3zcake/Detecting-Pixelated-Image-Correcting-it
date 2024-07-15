@@ -2,10 +2,12 @@
 This project is to build two models: one that detects pixelation in an image and one that resolves the pixelation and we combine these two models to work together.
 
 ### Part 0: How to Use
-1. Open a GitBash terminal
+1. Open a GitBash terminal and clone the directory and change the directory to Detecting-Pixelated-Image-Correcting-it
 ```bash
 git clone Detecting-Pixelated-Image-Correcting-it
+cd Detecting-Pixelated-Image-Correcting-it
 ```
+2. Open tenma
 
 
 ### Part 1: Pixelation Detection 
