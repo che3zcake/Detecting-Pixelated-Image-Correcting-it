@@ -34,7 +34,10 @@ else:
 ```python
 usage(image_path = r'image_path')
 ```              
-
+4. ***OPTIONAL*** Install the libraries with exact versions we used to test and train our model
+```python
+pip install -r requirements.txt
+```
 
 ### Part 1: Pixelation Detection 
 #### Overview
