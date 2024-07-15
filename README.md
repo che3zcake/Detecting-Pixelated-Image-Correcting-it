@@ -86,7 +86,7 @@ print(classification_report(y_test, y_pred))
 ```
 ### Part 2: Correction Model 
 #### Overview
-Our SRGAN model is a type of neural network designed to enhance the resolution of low-resolution images to a higher resolution. 
+Our SRGAN model is a neural network designed to correct images with pixelation to give an output of the same image without pixelation artifact. 
 The model consists of two main components: the Generator and the Discriminator.
 
 #### 1. Generator Network:
