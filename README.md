@@ -171,7 +171,7 @@ The discriminator is trained to minimize the Binary Cross-Entropy (BCE) loss bet
 </p>
 
 <p align="center">
-    <img src="Images/3.jpg" width="300%" />
+    <img src="Images/3.jpg" width="3000%" />
 </p>
 
 <p align="center">
