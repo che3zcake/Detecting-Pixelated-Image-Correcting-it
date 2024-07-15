@@ -4,10 +4,23 @@ This project is to build two models: one that detects pixelation in an image and
 ### Part 0: How to Use
 1. Open a GitBash terminal and clone the directory and change the directory to Detecting-Pixelated-Image-Correcting-it
 ```bash
-git clone Detecting-Pixelated-Image-Correcting-it
+git clone [Detecting-Pixelated-Image-Correcting-it](https://github.com/che3zcake/Detecting-Pixelated-Image-Correcting-it.git)
 cd Detecting-Pixelated-Image-Correcting-it
 ```
-2. Open tenma
+2. Open tenma0.ipynb and set the path for detection model ***pixelation_model.pkl** and correction model ***generator.pth*** to path
+```python
+model_path = os.path.join(r'C:\Users\nilot\OneDrive\Desktop\IntelAi', 'pixelation_model.pkl')
+```
+```python
+if not torch.cuda.is_available():
+    generator.load_state_dict(torch.load(r'C:\Users\nilot\OneDrive\Desktop\IntelAi\generator.pth', map_location=torch.device('cpu')))
+else:
+    generator.load_state_dict(torch.load(r'C:\Users\nilot\OneDrive\Desktop\IntelAi\generator.pth'))
+```
+3. Give the path to your image and run the cell
+```python
+usage(image_path = r'C:\Users\nilot\OneDrive\Desktop\IntelAi\downscaled.png')
+```              
 
 
 ### Part 1: Pixelation Detection 
