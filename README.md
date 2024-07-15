@@ -73,8 +73,8 @@ print(classification_report(y_test, y_pred))
   <b>Non Pixelated</b> | <b>Pixelated</b> 
 </p>
 <p align="center">
-  <img src="Images/0801np.png" width="200" />
-  <img src="Images/0801.png" width="200" />
+  <img src="Images/0801np.png" width="400" />
+  <img src="Images/0801.png" width="400" />
 </p>
 
 **Performance:**
@@ -94,9 +94,9 @@ print(classification_report(y_test, y_pred))
 
 | Metric            | Proposed Model          | SRGAN                    | EDSR                     | FSRCNN                   |
 |-------------------|-------------------------|--------------------------|--------------------------|--------------------------|
-| PSNR              | 28.939 dB               | 29.99 dB                 | 31.78 dB                 | 30.52 dB                 |
-| SSIM              | 0.9469                  | 0.8176                   | 0.8895                   | 0.8548                   |
-| LPIPS             | 0.0326                  | 0.1118                   | 0.1922                   | 0.2013                   |
+| PSNR              | 26.556 dB               | 29.99 dB                 | 31.78 dB                 | 30.52 dB                 |
+| SSIM              | 0.7690                  | 0.8176                   | 0.8895                   | 0.8548                   |
+| LPIPS             | 0.3064                  | 0.1118                   | 0.1922                   | 0.2013                   |
 | Speed (FPS)       | 79                      | 12                       | 16                       | 188                      |
 | Model Size (MB)   | 6.01                    | 5.874                    | 5.789                    | 0.049                    |
 
