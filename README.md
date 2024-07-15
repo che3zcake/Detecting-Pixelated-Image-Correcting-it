@@ -70,11 +70,11 @@ print(classification_report(y_test, y_pred))
 - Flickr2K (Test split - 284 images)
 
   <p align="center">
-  <b>Non Pixelated       </b> | <b>Pixelated</b> 
+  <b>Non Pixelated</b> | <b>Pixelated</b> 
 </p>
 <p align="center">
-  <img src="Images/0801np.png" width="400" />
-  <img src="Images/0801.png" width="400" />
+  <img src="Images/0801np.png" width="200" />
+  <img src="Images/0801.png" width="200" />
 </p>
 
 **Performance:**
@@ -118,7 +118,7 @@ print(classification_report(y_test, y_pred))
 </p>
 
 <p align="center">
-    <img src="Images/4.jpg" width="100%" />
+    <img src="Images/4.jpeg" width="100%" />
 </p>
 
 
