@@ -69,6 +69,14 @@ print(classification_report(y_test, y_pred))
 - Div2K (Full dataset - 900 images)
 - Flickr2K (Test split - 284 images)
 
+  <p align="center">
+  <b>Non Pixelated</b> | <b>Pixelated</b> 
+</p>
+<p align="center">
+  <img src="Images/0801np.png" width="400" />
+  <img src="Images/0801.png" width="400" />
+</p>
+
 **Performance:**
 
 | Metric           | Proposed Method on Flickr2K +Div2k | 
@@ -89,7 +97,7 @@ print(classification_report(y_test, y_pred))
 | PSNR              | 28.939 dB               | 29.99 dB                 | 31.78 dB                 | 30.52 dB                 |
 | SSIM              | 0.9469                  | 0.8176                   | 0.8895                   | 0.8548                   |
 | LPIPS             | 0.0326                  | 0.1118                   | 0.1922                   | 0.2013                   |
-| Speed (FPS)       | 70                      | 12                       | 16                       | 188                      |
+| Speed (FPS)       | 79                      | 12                       | 16                       | 188                      |
 | Model Size (MB)   | 6.01                    | 5.874                    | 5.789                    | 0.049                    |
 
 ***Sample Output***
@@ -109,6 +117,9 @@ print(classification_report(y_test, y_pred))
     <img src="Images/3.jpg" width="100%" />
 </p>
 
+<p align="center">
+    <img src="Images/4.jpg" width="100%" />
+</p>
 
 
 
