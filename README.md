@@ -1,11 +1,11 @@
 # Detecting-Pixelated-Image-Correcting-it
 This project extracts features from image patches and trains a stacking classifier for classification tasks.
 
-####Part 1: Pixelation Detection 
-#####Overview
+#### Part 1: Pixelation Detection 
+##### Overview
 The script processes images by dividing them into patches and extracting various features from each patch. The features include Edge detection using canny edge Detection, Block-Like patterns using Discrete Cosine Transform (DCT), Histogram of pixel intensities, Histogram of Oriented Gradients (HOG) for Texture Analysis, and Frequency Analysis using Fast Fourier Transform (FFT).
 
-#####Feature Extraction
+##### Feature Extraction
 Extract Patch Features
 Edge Detection: Uses the Canny edge detector to compute edge density.
 Block-like Patterns using DCT: Computes the Discrete Cosine Transform of the patch and extracts the first 8x8 coefficients.
