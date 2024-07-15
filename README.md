@@ -103,7 +103,7 @@ print(classification_report(y_test, y_pred))
 ***Sample Output***
 
 <p align="center">
-  <b>Low_Res</b> | <b>Super_Resolved</b>  |<b>Hig_Res</b> 
+  <b>Low Resolution Images</b> | <b>Super Resolved Images</b>  |<b>High Resolutio Images</b> 
 </p>
 <p align="center">
   <img src="Images/1.jpg" width="100%" />
