@@ -1,5 +1,5 @@
 # Detecting-Pixelated-Image-Correcting-it
-This project extracts features from image patches and trains a stacking classifier for classification tasks.
+This project is to build two models: one that detects pixelation in an image and one that resolves the pixelation and we combine these two models to work together.
 
 ### Part 1: Pixelation Detection 
 #### Overview
