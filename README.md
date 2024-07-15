@@ -79,6 +79,19 @@ print(classification_report(y_test, y_pred))
 | **Accuracy**     | 0.99                               |
 | **Model Size**   | 17.2 MB                            | 
 
+
+###  <ins>Correction Results: </ins>
+#### Metrics are calculated on set5 images 
+
+
+| Metric            | Proposed Model          | SRGAN                    | EDSR                     | FSRCNN                   |
+|-------------------|-------------------------|--------------------------|--------------------------|--------------------------|
+| PSNR              | 28.939 dB               | 29.99 dB                 | 31.78 dB                 | 30.52 dB                 |
+| SSIM              | 0.9469                  | 0.8176                   | 0.8895                   | 0.8548                   |
+| LPIPS             | 0.0326                  | 0.1118                   | 0.1922                   | 0.2013                   |
+| Speed (FPS)       | 70                      | 12                       | 16                       | 188                      |
+| Model Size (MB)   | 6.01                    | 5.874                    | 5.789                    | 0.049                    |
+
 ***Sample Output***
 
 <p align="center">
@@ -96,17 +109,6 @@ print(classification_report(y_test, y_pred))
     <img src="Images/3.jpg" width="100%" />
 </p>
 
-###  <ins>Correction Results: </ins>
-#### Metrics are calculated on Flikr2k dataset 
-
-
-| Metric            | Proposed Model          | SRGAN                    | EDSR                     | FSRCNN                   |
-|-------------------|-------------------------|--------------------------|--------------------------|--------------------------|
-| PSNR              | 28.939 dB               | 29.99 dB                 | 31.78 dB                 | 30.52 dB                 |
-| SSIM              | 0.9469                  | 0.8176                   | 0.8895                   | 0.8548                   |
-| LPIPS             | 0.0326                  | 0.1118                   | 0.1922                   | 0.2013                   |
-| Speed (FPS)       | 70                      | 12                       | 16                       | 188                      |
-| Model Size (MB)   | 6.01                    | 5.874                    | 5.789                    | 0.049                    |
 
 
 
