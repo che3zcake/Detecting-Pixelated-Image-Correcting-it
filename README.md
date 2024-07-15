@@ -2,7 +2,7 @@
 This project is to build two models: one that detects pixelation in an image and one that resolves the pixelation and we combine these two models to work together.
 
 ## ***The [Power Point](https://github.com/che3zcake/Detecting-Pixelated-Image-Correcting-it/blob/main/Detecting%20Pixelated%20Image%20and%20Correction.pdf) regarding our entire project can be found in the repository***
-If the model architecture images the not visible in the ppt please refer the [gen.png](https://github.com/che3zcake/Detecting-Pixelated-Image-Correcting-it/blob/main/gen.png) and [dis.png](https://github.com/che3zcake/Detecting-Pixelated-Image-Correcting-it/blob/main/dis.png) 
+If the model architecture images the not visible in the ppt please refer the [gen.png](https://github.com/che3zcake/Detecting-Pixelated-Image-Correcting-it/blob/main/gen.png) and [dis.png](https://github.com/che3zcake/Detecting-Pixelated-Image-Correcting-it/blob/main/dis.png). 
 
 ### Part 0: How to Use
 1. Open a GitBash terminal and clone the directory and change the directory to Detecting-Pixelated-Image-Correcting-it
