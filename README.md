@@ -96,9 +96,6 @@ print(classification_report(y_test, y_pred))
     <img src="Images/3.jpg" width="100%" />
 </p>
 
-<p align="center">
-    <img src="Images/3.jpg" width="100%" />
-</p>
 
 
 
