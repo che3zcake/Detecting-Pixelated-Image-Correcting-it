@@ -228,7 +228,9 @@ If the image is found to be pixelated by the detection model, the GAN model is u
 This model stands out for its exceptional efficiency and lightweight design, with a combined size of only 30 MB for both detection and correction components. This makes it ideal for embedded systems, unlike many pre-existing models that, while occasionally offering superior results, are often excessively large and memory inefficient.
 
 ### References
-https://github.com/cszn/DnCNN
+<p align="center">
+    (https://github.com/cszn/DnCNN)
+</p>
 https://github.com/cszn/FFDNet
 https://paperswithcode.com/task/image-deblocking/latest
 https://github.com/jiaxi-jiang/FBCNN/tree/main
