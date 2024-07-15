@@ -107,14 +107,14 @@ The discriminator is trained to minimize the Binary Cross-Entropy (BCE) loss bet
   <b>Generator</b>
 </p>
 <p align="center">
-  <img src="Images/gen.png" width="400" />
+  <img src="Images/gen.png" width="100%" />
 </p>
 
  <p align="center">
   <b>Discriminator</b>
 </p>
 <p align="center">
-  <img src="Images/dis.png" width="400" />
+  <img src="Images/dis.png" width="100%" />
 </p>
 
 ## :star: Results
